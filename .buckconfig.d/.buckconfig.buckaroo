@@ -1,0 +1,6 @@
+[buckaroo]
+  dependencies = buckaroo.github.dasmaichen.glib//:glib
+  github.com/dasmaichen/glib = buckaroo.github.dasmaichen.glib
+
+[repositories]
+  buckaroo.github.dasmaichen.glib = buckaroo/github/dasmaichen/glib

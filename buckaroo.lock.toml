@@ -1,0 +1,9 @@
+manifest = "2575259bb019e7148850d7c6cf094d4e9cad0fd532d5c3454873234b6c24f793"
+
+[[dependency]]
+package = "github.com/dasmaichen/glib"
+target = "//:glib"
+
+[lock."github.com/dasmaichen/glib"]
+versions = [ "branch=master" ]
+revision = "2c9f682fc4a12a95d0dac543e1fdda754939c356"

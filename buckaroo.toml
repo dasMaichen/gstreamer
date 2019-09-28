@@ -1,1 +1,6 @@
 targets = [ "//:gstreamer" ]
+
+[[dependency]]
+package = "github.com/dasmaichen/glib"
+version = "branch=master"
+
