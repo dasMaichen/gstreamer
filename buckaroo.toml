@@ -1,4 +1,4 @@
-targets = [ "//:gstreamer" ]
+targets = [ "//:gstreamer" , "//:gstnet" ]
 
 [[dependency]]
 package = "github.com/dasmaichen/glib"
