@@ -15,3 +15,14 @@ prebuilt_cxx_library(
   deps = buckaroo_deps()
 )
 
+prebuilt_cxx_library(
+  name = 'gstnet',
+  soname = 'libgstnet-1.0.so',
+  shared_lib = 'lib/libgstnet-1.0.so',
+  exported_linker_flags = [
+    '-lgobject-2.0'
+  ],
+  visibility = ['PUBLIC'],
+  deps = buckaroo_deps()
+)
+
